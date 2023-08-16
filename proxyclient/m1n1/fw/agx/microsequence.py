@@ -268,7 +268,7 @@ class Start3DStruct2(ConstructClass):
         "pipeline_base" / Int64ul,
         "unk_140" / Int64ul,
         "helper_program" / Int32ul, # bit 0: enable
-        "unk_44" / Int32ul, # 0
+        "unk_14c" / Int32ul, # 0
         "helper_arg" / Int64ul, # stack layout
         "unk_158" / Int64ul,
         "unk_160" / Int64ul,
@@ -517,7 +517,7 @@ class StartTACmdStruct2(ConstructClass):
         Ver("G < G14", "unk_f0" / Int64ul),
         "unk_f8" / Int64ul,
         "helper_program" / Int32ul, # bit 0: enable
-        "unk_44" / Int32ul, # 0
+        "unk_104" / Int32ul, # 0
         "helper_arg" / Int64ul, # stack layout
         "unk_110" / Hex(Int64ul),
         "unk_118" / Int32ul,
