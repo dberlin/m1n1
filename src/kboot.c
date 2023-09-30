@@ -2166,7 +2166,7 @@ int kboot_prepare_dt(void *fdt)
     if (dt_set_sio_fwdata())
         return -1;
     if (dt_reserve_asc_firmware("/arm-io/isp", "/arm-io/isp0", "isp",
-                                chip_id > 0x6020))
+                                isp_uses_remap()))
         return -1;
     if (dt_set_isp_fwdata())
         return -1;
