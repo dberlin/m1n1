@@ -1,5 +1,6 @@
 RUSTARCH ?= aarch64-unknown-none-softfloat
-
+CHAINLOADING := 1
+BRINGUP=1
 ifeq ($(shell uname),Darwin)
 USE_CLANG ?= 1
 $(info INFO: Building on Darwin)

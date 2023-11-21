@@ -11,7 +11,7 @@
 //#define EARLY_PROXY_TIMEOUT 5
 
 // Minimal build for bring-up
-//#define BRINGUP
+#define BRINGUP
 
 // Print RTKit logs to the console
 //#define RTKIT_SYSLOG
