@@ -8,16 +8,16 @@
 // Disable framebuffer console unless verbose boot is enabled
 //#define FB_SILENT_MODE
 // Initialize USB early and break into proxy if device is opened within this time (sec)
-//#define EARLY_PROXY_TIMEOUT 5
+#define EARLY_PROXY_TIMEOUT 15
 
 // Minimal build for bring-up
-#define BRINGUP
+//#define BRINGUP
 
 // Print RTKit logs to the console
 //#define RTKIT_SYSLOG
 
 // Target for device-specific debug builds
-//#define TARGET T8103
+#define TARGET T6031
 
 #ifdef RELEASE
 # define FB_SILENT_MODE

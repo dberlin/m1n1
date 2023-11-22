@@ -28,7 +28,7 @@ static void init_common_avalanche(void)
                  HID13_GROUP0_FF7_DELAY(4) | HID13_RESET_CYCLES(0));
 
     reg_mask(SYS_IMP_APL_HID26, HID26_GROUP1_OFFSET_MASK | HID26_GROUP2_OFFSET_MASK,
-             HID26_GROUP1_OFFSET(26) | HID26_GROUP2_OFFSET(31));
+             ((ULONG(26)) << 0) | ((ULONG(31)) << 36));
     reg_mask(SYS_IMP_APL_HID27, HID27_GROUP3_OFFSET_MASK, HID27_GROUP3_OFFSET(31));
 }
 

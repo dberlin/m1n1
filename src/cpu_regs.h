@@ -299,6 +299,8 @@
 #define HID11_ENABLE_FIX_UC_55719865 BIT(15)
 #define HID11_DISABLE_LD_NT_WIDGET   BIT(59)
 
+#define SYS_IMP_APL_HID12           sys_reg(3, 0, 15, 12, 0)
+
 #define SYS_IMP_APL_HID13           sys_reg(3, 0, 15, 14, 0)
 #define HID13_POST_OFF_CYCLES(x)    ((ULONG(x)))
 #define HID13_POST_OFF_CYCLES_MASK  GENMASK(6, 0)
